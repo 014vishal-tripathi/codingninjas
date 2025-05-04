@@ -1,0 +1,18 @@
+.nav-list{
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    gap: 10px;
+}
+#courses{
+    height: 450px;
+    width: 750px;
+}
+
+.social-media{
+    height: 50px;
+    width: 50px;
+    margin: 1px;
+    padding: 1px;
+}

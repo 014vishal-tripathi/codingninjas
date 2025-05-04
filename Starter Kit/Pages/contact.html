@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/Pages/styles.css">
+</head>
+<body>
+    <header>
+        <a href="/Pages/index.html"><img src="/Multimedia/new_cn_logo.svg" alt="Coding Ninjas Logo" class="logo"></a>
+    </header>
+    <hr/>
+
+    <section class="contact-info">
+
+        <h2>Contact Details</h2>
+        <p>For inquiries, you can reach us via email or phone:</p>
+        <p>
+            Email: <a href="mailto:contact@codingninjas.com">contact@codingninjas.com</a>
+        </p>
+        <p>
+            Phone: <a href="tel:1800-123-3598">1800-123-3598</a>
+        </p>
+    </section>
+
+    <hr/>
+
+    <section id="map">
+        <h2>Location Map</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.603481507978!2d77.13265777518183!3d28.701505680945782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d03d1c7d6aaab%3A0x62f148aa1c4a1838!2sCoding%20Ninjas!5e0!3m2!1sen!2sin!4v1745867342313!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section id="feedback-form">
+        <form action="/submit-feedback" method="POST">
+            <fieldset>
+                <legend>Feedback Form</legend>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+            
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+            
+                <label for="subject">Subject:</label><br>
+                <input type="text" id="subject" name="subject" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>
